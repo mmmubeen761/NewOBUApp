@@ -13,7 +13,6 @@ const EndScreen = () => {
 
     return (
         <>
-            <ScrollView>
 
                 <SafeAreaView>
                     <View style={styles.containers}>
@@ -53,7 +52,6 @@ const EndScreen = () => {
                         </View>
                     </View>
                 </SafeAreaView>
-            </ScrollView>
         </>
     );
 };

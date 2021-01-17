@@ -20,7 +20,7 @@ const TransferOBU = (props) => {
             <View style={styles.container}>
                 <View style={styles.actions}>
                 <Image source={require('../images/menu.png')} />
-                <Text style={{ flex: 1, justifyContent: 'center', alignItems: "center", color: '#fff', fontSize: 24, fontFamily: 'System', paddingLeft: 65 }}>Lorem Ipsum</Text>
+                <Text style={{  color: '#fff', fontSize: 24, fontFamily: 'System', textAlign:'center',width:'80%'}}>Lorem Ipsum</Text>
                 </View>
             </View>
             <ScrollView>
@@ -180,12 +180,13 @@ const styles = StyleSheet.create({
         paddingRight: 20,
         // justifyContent: 'flex-start',
         // alignItems: 'flex-start',
-        borderTopLeftRadius: 50,
-        borderBottomRightRadius: 50,
-        borderBottomLeftRadius: 50,
-        borderTopRightRadius: 50,
+        // borderTopLeftRadius: 50,
+        // borderBottomRightRadius: 50,
+        // borderBottomLeftRadius: 50,
+        // borderTopRightRadius: 50,
         backgroundColor: '#c60017',
-        color: 'white'
+        color: 'white',
+        borderRadius:50
     },
     button: {
         alignItems: 'center',

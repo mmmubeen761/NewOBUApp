@@ -25,7 +25,7 @@ const ScanVehicle = (props) => {
             <View style={styles.container}>
                 <View style={styles.actions}>
                     <Image source={require('../images/menu.png')} />
-                    <Text style={{ flex: 1, justifyContent: 'center', alignItems: "center", color: '#fff', fontSize: 24, fontFamily: 'System', paddingLeft: 65 }}>Lorem Ipsum</Text>
+                    <Text style={{  color: '#fff', fontSize: 24, fontFamily: 'System', textAlign:'center',width:'80%'}}>Lorem Ipsum</Text>
                 </View>
             </View>
             <ScrollView>
@@ -58,10 +58,6 @@ const ScanVehicle = (props) => {
             <View>
                 <Text style={styles.act} className="btn"><Image source={require('../images/pencil.png')} /></Text>
             </View>
-            {/* <View style={{ position: 'absolute', bottom: 20, alignSelf: 'flex-end', paddingRight: 20 }}>
-            <Image source={require('../images/pencil.png')} style={{ backgroundColor: '#c60017', borderRadius: 50, padding: 20}} />
-                <FontAwesome name="pen" style={{ fontSize: 20, backgroundColor: 'gray', borderRadius: 50, padding: 10, color: 'white' }} />
-            </View> */}
         </>
     );
 };
@@ -101,16 +97,17 @@ const styles = StyleSheet.create({
         paddingTop: 8,
         paddingLeft: 12,
         // paddingRight: 5,
-        borderTopLeftRadius: 50,
-        borderBottomRightRadius: 50,
-        borderBottomLeftRadius: 50,
-        borderTopRightRadius: 50,
+        // borderTopLeftRadius: 50,
+        // borderBottomRightRadius: 50,
+        // borderBottomLeftRadius: 50,
+        // borderTopRightRadius: 50,
         backgroundColor: '#c60017',
         color: 'white',
         position: 'absolute',
         bottom: 10,
         zIndex: 22,
-        alignSelf: 'center'
+        alignSelf: 'center',
+        borderRadius:50
     },
     act: {
         width: ('11%'),
@@ -118,16 +115,17 @@ const styles = StyleSheet.create({
         paddingTop: 8,
         paddingLeft: 12,
         // paddingRight: 5,
-        borderTopLeftRadius: 50,
-        borderBottomRightRadius: 50,
-        borderBottomLeftRadius: 50,
-        borderTopRightRadius: 50,
+        // borderTopLeftRadius: 50,
+        // borderBottomRightRadius: 50,
+        // borderBottomLeftRadius: 50,
+        // borderTopRightRadius: 50,
         backgroundColor: 'gray',
         color: 'white',
         position: 'absolute',
         bottom: 10,
         right: 10,
         zIndex: 22,
-        alignSelf: "flex-end"
+        alignSelf: "flex-end",
+        borderRadius:50
     },
 });

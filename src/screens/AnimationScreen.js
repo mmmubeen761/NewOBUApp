@@ -120,7 +120,7 @@ const AnimationScreen = (props) => {
                             ]
                         }} >
                             <Image
-                                style={{ resizeMode: 'contain', width: '300%', paddingTop: '50%', marginTop: '-75%', marginLeft: '260%' }}
+                                style={{ width: '300%', paddingTop: '10%', marginTop: '-75%', marginLeft: '260%' }}
                                 source={require('../images/cloud.png')}
                                 width='100%'
                                 height='100%'
@@ -222,10 +222,10 @@ const styles = StyleSheet.create({
         paddingLeft: 30,
         justifyContent: 'flex-start',
         alignItems: 'flex-start',
-        borderTopLeftRadius: 50,
-        borderBottomRightRadius: 50,
-        borderBottomLeftRadius: 50,
-        borderTopRightRadius: 50,
+        // borderTopLeftRadius: 50,
+        // borderBottomRightRadius: 50,
+        // borderBottomLeftRadius: 50,
+        // borderTopRightRadius: 50,
         backgroundColor: '#c60017',
         color: 'white'
     },
@@ -249,11 +249,12 @@ const styles = StyleSheet.create({
         paddingBottom: 25,
         paddingTop: 15,
         paddingLeft: 17,
-        paddingRight: 10,
-        borderTopLeftRadius: 50,
-        borderBottomRightRadius: 50,
-        borderBottomLeftRadius: 50,
-        borderTopRightRadius: 50,
+        // paddingRight: 10,
+        borderRadius:50,
+        // borderTopLeftRadius: 50,
+        // borderBottomRightRadius: 50,
+        // borderBottomLeftRadius: 50,
+        // borderTopRightRadius: 50,
         backgroundColor: '#c60017',
         color: 'white',
         position: 'absolute',
@@ -267,10 +268,11 @@ const styles = StyleSheet.create({
         paddingTop: 22,
         paddingLeft: 17,
         paddingRight: 10,
-        borderTopLeftRadius: 50,
-        borderBottomRightRadius: 50,
-        borderBottomLeftRadius: 50,
-        borderTopRightRadius: 50,
+        // borderTopLeftRadius: 50,
+        // borderBottomRightRadius: 50,
+        // borderBottomLeftRadius: 50,
+        // borderTopRightRadius: 50,
+        borderRadius:50,
         backgroundColor: '#c60017',
         color: '#c60017',
         position: 'absolute',
@@ -285,10 +287,11 @@ const styles = StyleSheet.create({
         paddingTop: 22,
         paddingLeft: 17,
         paddingRight: 10,
-        borderTopLeftRadius: 50,
-        borderBottomRightRadius: 50,
-        borderBottomLeftRadius: 50,
-        borderTopRightRadius: 50,
+        // borderTopLeftRadius: 50,
+        // borderBottomRightRadius: 50,
+        // borderBottomLeftRadius: 50,
+        // borderTopRightRadius: 50,
+        borderRadius:50,
         backgroundColor: '#c60017',
         color: '#c60017',
         position: 'absolute',
