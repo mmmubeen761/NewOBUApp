@@ -1,34 +1,30 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import FABScreen from '../screens/FABScreen';
-import LoginScreen from '../screens/LoginScreen';
-import TransferOBU from '../screens/TransferOBU';
-import ScanVehicle from '../screens/ScanVehicle';
-import EndScreen from '../screens/EndScreen';
-import Load from '../screens/Load';
-import Driver from '../screens/Driver';
-import AnimationScreen from '../screens/AnimationScreen';
-import SplashScreen from '../screens/SplashScreen';
+import Navigation from './navigation';
+import MainScreen from '../screens/MainScreen';
+import SignUp from '../screens/Signup';
+import SignIn from '../screens/Signin'
+import Half from '../screens/Half'
+import DonateBlood from '../screens/DonateBlood'
+import RequestBlood from '../screens/RequestBlood'
 
 const Stack = createStackNavigator();
 
-function StartNavigation(props) {
+function StartNavigation() {
 
     return (
         <NavigationContainer>
             <Stack.Navigator screenOptions={{
                 headerShown: false
             }}>
-                <Stack.Screen name="SplashScreen" component={SplashScreen} />
-                <Stack.Screen name="AnimationScreen" component={AnimationScreen} />
-                <Stack.Screen name="TransferOBU" component={TransferOBU} />
-                <Stack.Screen name="FABScreen" component={FABScreen} />
-                <Stack.Screen name="Driver" component={Driver} />
-                <Stack.Screen name="LoginScreen" component={LoginScreen} />
-                <Stack.Screen name="ScanVehicle" component={ScanVehicle} />
-                <Stack.Screen name="EndScreen" component={EndScreen} />
-                <Stack.Screen name="Load" component={Load} />
+                <Stack.Screen name="SignIn" component={SignIn} />
+                <Stack.Screen name="Half" component={Half} />
+                <Stack.Screen name="DonateBlood" component={DonateBlood} />
+                <Stack.Screen name="RequestBlood" component={RequestBlood} />
+            <Stack.Screen name="SignUp" component={SignUp} />
+                <Stack.Screen name="MainScreen" component={MainScreen} />
+                <Stack.Screen name="Navigation" component={Navigation} />
             </Stack.Navigator>
         </NavigationContainer>
     );

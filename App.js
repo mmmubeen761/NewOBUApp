@@ -1,12 +1,11 @@
 import React from 'react';
 import StartNavigation from './src/navigation/Startnav';
 
-const App = () => {
+
+export default App = () => {
   return (
     <>
-      <StartNavigation />
+     <StartNavigation />
     </>
   );
-};
-
-export default App;
+};  

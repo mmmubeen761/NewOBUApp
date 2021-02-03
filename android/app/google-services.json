@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "672887915725",
+    "project_id": "blood9donation",
+    "storage_bucket": "blood9donation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672887915725:android:39b6328828bbd0494fd584",
+        "android_client_info": {
+          "package_name": "com.obuapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672887915725-k2putqmqnqrbt8ikh33cmp5qg2ncn1sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwK0QBOLqH32CF7OQFmUR8PyBgptAeEyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672887915725-k2putqmqnqrbt8ikh33cmp5qg2ncn1sp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
